@@ -17,7 +17,7 @@ on:
 
 jobs:
   OpenWrt-18_06:
-    runs-on: ubuntu-18.06
+    runs-on: ubuntu-18.04
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
